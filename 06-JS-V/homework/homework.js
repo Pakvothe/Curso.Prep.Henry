@@ -22,6 +22,7 @@ function crearUsuario() {
 
     return Usuario;
 
+
 }
 
 function agregarMetodoPrototype(Constructor) {
@@ -33,6 +34,7 @@ function agregarMetodoPrototype(Constructor) {
     }
 
 }
+//asd
 
 function agregarStringInvertida() {
     // Agrega un método al prototype de String que devuelva la misma cadena de caracteres, pero invertida.
