@@ -1,0 +1,111 @@
+        html {
+            box-sizing: border-box;
+            font-size: 62.5%;
+            /** Reset para REMS - 62.5% = 10px de 16px **/
+        }
+        
+        *,
+        *:before,
+        *:after {
+            box-sizing: inherit;
+        }
+        
+        body {
+            font-family: 'Lato', sans-serif;
+            font-size: 1.6rem;
+            line-height: 2;
+        }
+        /** GLOBALES **/
+        
+        img {
+            width: 50rem;
+        }
+        
+        .contenedor {
+            width: 95%;
+            max-width: 120rem;
+            /** = 1200px; **/
+            margin: 0 auto;
+        }
+        
+        h1 {
+            font-size: 3.8rem;
+        }
+        
+        h2 {
+            font-size: 3.4rem;
+        }
+        
+        h3 {
+            font-size: 3rem;
+        }
+        
+        h4 {
+            font-size: 2.6rem;
+        }
+        /**Header**/
+        
+        .site-header {
+            padding: 1rem 0 3rem 0;
+        }
+        
+        .site-header.inicio {
+            background-position: center center;
+            background-size: cover;
+            height: 100vh;
+            min-height: 60rem;
+        }
+        
+        .barra {
+            background-color: #333333;
+            color: white;
+        }
+        
+        .titulo {
+            font-size: 8rem;
+            text-align: center;
+        }
+        
+        .nombre {
+            text-align: center;
+        }
+        
+        .flex {
+            display: grid;
+            text-align: center;
+            text-transform: uppercase;
+        }
+        /** Contenido**/
+        
+        .study {
+            padding-top: 6rem;
+            text-align: center;
+        }
+        
+        .exp {
+            padding-top: 6rem;
+            text-align: center;
+        }
+        
+        .skills {
+            padding-top: 6rem;
+            text-align: center;
+        }
+        
+        .picture {
+            padding-top: 6rem;
+            text-align: center;
+        }
+        
+        .hobbie {
+            padding-top: 6rem;
+            text-align: center;
+        }
+        /**footer**/
+        
+        .footer {
+            background-color: #333333;
+            color: white;
+            text-align: center;
+            padding-inline: 1px;
+        }
