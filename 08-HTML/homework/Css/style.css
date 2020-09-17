@@ -1,0 +1,55 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    /** Reset para REMS - 62.5% = 10px de 16px **/
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(https://i.pinimg.com/564x/4a/6b/a1/4a6ba1a6bf621b367ce472be965c7cc1.jpg);
+}
+
+h1 {
+    color: red;
+}
+
+img {
+    width: 40rem;
+}
+
+div {
+    margin: auto;
+}
+
+.contenedor {
+    width: 96rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.thirdDiv {
+    height: 60rem;
+    width: 50rem;
+    background-color: gray;
+}
+
+#spanId {
+    font-size: 1.8rem;
+    margin: 5rem;
+    padding: auto;
+    border: solid blue;
+    border-left: 0.1rem;
+    border-width: 0.1rem;
+}
